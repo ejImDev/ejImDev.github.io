@@ -29,7 +29,7 @@ tags:
 뜻하지 않은곳에서 원인을 찾았다.
 
 futrue: true으로 해결 된 사람이 많다면 등록 시간에 문제가 있는것은 아닐까 생각이 들었고
-```_config.yml 파일에 들어가 타임존에 Asia/Seoul 를 등록```
+<mark style='background-color: #ffd33d'>_config.yml 파일에 들어가 타임존에 Asia/Seoul 를 등록</mark>
 했더니 정상적으로 포스팅이 되었다.
 
 **기준시간이 서울이 아닌 타국으로 되어있어 제목의 일자와 상이해 벌어진 오류**로 보인다.   
