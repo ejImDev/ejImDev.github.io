@@ -1,7 +1,13 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "JAVA"
+    url: /JAVA/
+  - title: "JSP"
+    url: /JSP/
+  - title: "ORACLE"
+    url: /ORACLE/
+  - title: "etc"
+    url: /etc/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
