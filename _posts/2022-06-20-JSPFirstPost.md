@@ -1,0 +1,71 @@
+---
+layout : single
+title: "[JSP] JSP의 스크립트 요소 및 내장객체"
+
+categories:
+  - JSP
+tags:
+  - JSP
+  - 서블릿
+---
+<br/><br/><br/>
+JSP 스크립트 요소 및 종류
+- JSP 페이지에서 동적인 처리를 제공하는 기능
+ <br/> <br/>
+1. 선언문 : <br/>
+~~~
+<%! 멤버 변수 or 멤버 메서드 %>
+~~~
+- JSP에서 변수나 메서드를 선언할때 사용
+- 선언문 안의 멤버는 실행시 서블릿 클래스의 멤버로 변환 <br/>
+
+2. 스크립트릿 : <br/>
+~~~
+<% 자바 코드 %>
+~~~
+- JSP에서 자바 코드를 작성할 때 사용
+- 주로 초기 웹페이지에서 동적 기능을 구현하기 위해 사용 됨 <br/>
+
+3. 표현식 :<br/>
+~~~
+<%= 값 or 자바 변수 or 자바 식 %>
+~~~
+- JSP에서 변수의 값을 출력할 때 사용 <br/>
+<br/><br/><br/>
+**주석 표현**
+
+|종류|표현|실행 시 반영|
+|:---:|:---:|:---:|
+|HTML 주석|\<\!-- 내용 -->|실행 시 브라우저로 전달 됨|
+|JSP 주석|<%-- 내용 --%>|변환되지 않음|
+|자바 주석|/* 내용 */|실행 시 서블릿에 자바 주석문으로 표현 됨|
+
+<br/><br/>
+**내장객체**
+- JSP가 서블릿으로 변환 될 때 컨테이너가 자동으로 생성 시키는 서블릿 멤버 변수
+
+1. JSP에서 제공하는 내장 객체들
+
+|내장객체|서블릿|설명|
+|:---|:---|:---|
+|request|javax.servlet.http.HttpServletRequest|클라이언트의 요청 정보를 저장|
+|response|javax.servlet.http.HttpServletResponse|응답 정보를 저장|
+|out|javax.servlet.jsp.JspWriter|JSP 페이지에서 결과를 출력|
+|pageContext|javax.servlet.jsp.PageContext|JSP 페이지에 대한 정보를 저장 |
+|page|java.lang.Object|JSP 페이지의 서블릿 인스턴스를 저장|
+|config|javax.servlet.ServletConfig|JSP 페이지에 대한 설정 정보를 저장|
+|exception|java.lang.Exception|예외 발생 시 예외를 처리|
+
+참고 ) pageContext는 프로젝트를 서버에서 구동할때 단위로 생성되는 context를 가리킴<br/><br/>
+
+
+3. 내장 객체의 스코프
+
+|내장객체|서블릿|스코프|
+|:---|:---|:---|
+|page|this|하나의 JSP 페이지를 공유|
+|request|HttpServletRequest|요청을 공유하는 JSP 페이지를 공유|
+|session|HttpSession|세션이 유지되는 동안의 같은 브라우저에서 공유|
+|application|ServletContext|같은 애플리케이션에서 공유|
+
+> 참고 도서 : 자바 웹을 다루는 기술, 이병승 저, 길벗 
