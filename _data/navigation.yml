@@ -6,6 +6,8 @@ main:
     url: /JSP/
   - title: "ORACLE"
     url: /ORACLE/
+  - title: "Test"
+    url: /Test/
   - title: "etc"
     url: /etc/
   # - title: "About"
