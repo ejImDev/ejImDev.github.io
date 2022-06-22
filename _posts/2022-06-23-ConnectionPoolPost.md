@@ -49,7 +49,7 @@ context.xml
  - url : jdbc:oracle:thin:@ip주소:포트번호:전역 DB명
  - maxActive : 최대 연결 가능한 Connection수
  - maxWait : 사용가능 커넥션이 없을 때 회수를 기다리는 시간
-<br/>
+<br/><br/><br/>
 
 ~~~
 public class JDBConnection {
