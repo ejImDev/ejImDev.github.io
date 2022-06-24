@@ -134,5 +134,8 @@ web.xml에서 앤트리나 리소스 정보는 "java:comp/env"에 위치 됨<br/
  - **DataSource source = (DataSource)ctx.lookup("jdbc/oracle");**<br/>
  ctx의 lookup(참고 메서드)를 이용해 "jdbc/oracle"에 해당하는 객체를 찾아서 DataSource에 삽입.<br/>jdbc/oracle는 context.xml에 설정해줬던 이름임 <br/>
 - **con = source.getConnection();**<br/>
-getConnection 메서드를 이용해 커넥션 풀로부터 커넥션 객체를 얻어 con에 저장<br/>
+getConnection 메서드를 이용해 커넥션 풀로부터 커넥션 객체를 얻어 con에 저장<br/> 
+- **public JDBConnection(ServletContext application)**<br/> 
+application영역에 미리 context-param로 url, id, pw등을 저장해놓고 꺼내와 DriverManager를 이용해 커넥션
  
+
