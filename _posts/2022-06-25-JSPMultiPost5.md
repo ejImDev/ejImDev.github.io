@@ -47,6 +47,7 @@ if (client.indexOf("WOW64") == -1) {
  - **request.getHeader("User-Agent")**<br>User-Agent는 사용자가 사용하는 브라우저와 운영체제 정보를 포함하고 있다<br>한글 파일명 깨짐방지를 체크하기 위해 브라우저 상황을 구분해야한다<br><br> 
  - **User-Agent 리스트**<br>[http://www.useragentstring.com/pages/useragentstring.php](http://www.useragentstring.com/pages/useragentstring.php)<br><br>
  - **originFileName.getBytes("a"),"b"**<br>인코딩 된 데이터는 받는쪽에서도 디코딩이 필요하다. <br>만약 서로 다른 기준의 문자셋을 이용한다면 통신에 어려움이 있을것이다. <br>따라 a로 디코딩 되어있는 문자열을 다시 인코딩해서 b로 디코딩 작업을 진행해 문자열 객체에 담아주는 것이다.<br><br>
+
 ~~~
 response.reset();
 
@@ -65,6 +66,7 @@ while((readBuffer = inStream.read(b))>0){
 	outStream.write(b,0,readBuffer);
 }
 ~~~
+
 - **response.reset()**<br>파일을 다운로드하기 위한 응답 헤더를 설정. 초기화<br><br>
 - **setContentType("")**<br>파일 다운로드 창을 띄우기 위한 컨텐츠 타입 지정<br><br>
 - **application/octet-stream**<br>MIME의 개별타입중 하나이자 특정 종류(이미지,비디오 등)을 지정하는것이 아닌 8비트의 모든 바이너리 데이터.<br><br>
