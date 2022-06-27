@@ -21,7 +21,7 @@ tags:
  - [ ] 1개 게시물 다중 사진 업로드
  - [ ] 앨범형 게시판목록
 
-지난 페이지에서 사진 추가 기능을 구현했으니<br>INSERT된 내역을 확인 할 수 있어야한다.<br><br>따라서 전일 sendRedirect로 넘긴 목록 페이지를 구현할것이다
+<br><br>지난 페이지에서 사진 추가 기능을 구현했으니<br>INSERT된 내역을 확인 할 수 있어야한다.<br><br>따라서 전일 sendRedirect로 넘긴 목록 페이지를 구현할것이다
 ~~~
 <%
 	MyFileDAO dao = new MyFileDAO();
