@@ -68,7 +68,7 @@ tags:
 
  - **org.springframework.beans.factory.config.PropertyPlaceholderConfigurer**<br>외부 프로퍼티에 저장된 정보를 스프링에서 사용하고자 할때 ``PropertyPlaceholderConfigurer``라는 설정을 통해 사용<br>한개 이상의 프로퍼티 파일을 지정하고 싶을때는 ``<list>`` 태그를 이용해서 목록을 지정할수있음<br><Br>
  
-4. **외부 설정 프로퍼티**
+4.**외부 설정 프로퍼티**
   
 ~~~
 jdbc.driverClassName=oracle.jdbc.driver.OracleDriver
@@ -76,8 +76,6 @@ jdbc.url=jdbc:oracle:thin:@localhost:1521:XE
 jdbc.username=아이디
 jdbc.password=비밀번호
 ~~~
-
-<br>
 
 - **org.apache.ibatis.datasource.pooled.PooledDataSource**<br>DataSource를 정의해 커넥션 풀 설정<br><Br>
 - **org.mybatis.spring.SqlSessionFactoryBean**<br>실질적으로 DB와 마이바티스를 연결해주는 단계. DataSource를 참조해서 연동함<br>마이바티스에 별도의 설정을 주고 싶으면 configLocation 속성을 추가해서 별도의 설정 파일을 연결(modelConfig.xml)<br>mapperLocations 를 이용해서 매퍼의 위치를 설정<br><br>
@@ -96,10 +94,6 @@ typeAlias 태그의 type 속성에 클래스 패키지 주소를 적고, alias �
 
 6. **mappers/member.xml**
 ~~~
-<!DOCTYPE mapper
-  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-  
 <mapper namespace="mapper.member">
 
 	<resultMap type="memberDTO" id="memResult">	
@@ -133,8 +127,6 @@ typeAlias 태그의 type 속성에 클래스 패키지 주소를 적고, alias �
 - **\<result property="VO파일에서 설정한 컬럼의 필드명" column="DB의 컬럼명" />**<br>두개가 이미 동일하다면 resultMap을 생략해도 됨<br><br>
 - **\<select id="DAO에서 부를 명칭" resultMap="위에서 만들어놓은 DTO 아이디 값" 또는 resultType="결과를 보낼 타입">**<br>쿼리문을 작성하는 단계. SELECT가 아닌 INSERT, UPDATE, DELETE 모두 동일함<BR>resultMap을 생략한 경우 DTO 아이디 값이 아닌 modelConfig.xml에서 설정한 이름으로 지정 가능<br><br>
 - **org.mybatis.spring.SqlSessionTemplate**<br>마이바티스 쿼리문을 수행해주는 역할<br> 클래스에서 SqlSessionTemplate 필드 방식으로 주입해서 사용.<br><br>
-
-<br>
 
 7. **action-service.xml**
 ```
