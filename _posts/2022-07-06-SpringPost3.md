@@ -18,10 +18,8 @@ tags:
 </dependency>
 ~~~
 
-<br>
 
 2. **web.xml 설정**<br>
-마이바티스 설정을 지정하는 XML 파일을 읽을 수 있게 경로를 contextConfigLocation에 추가
 ```
 <context-param>
 	<param-name>contextConfigLocation</param-name>
@@ -32,10 +30,9 @@ tags:
 </context-param>
 ```
 
-<br>
+마이바티스 설정을 지정하는 XML 파일을 읽을 수 있게 경로를 contextConfigLocation에 추가<br><br>
 
 3. **action-mybatis.xml**<br>
-데이터베이스 연동 시 반환 값을 저장할 빈이나 마이바티스 관련 정보를 설정
 ```
 <bean id="propertyPlaceholderConfigurer" 
 				class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
@@ -65,6 +62,9 @@ tags:
 	<property name="sqlSession" ref="sqlSession" ></property>
 </bean>
 ```
+
+데이터베이스 연동 시 반환 값을 저장할 빈이나 마이바티스 관련 정보를 설정
+
  - **org.springframework.beans.factory.config.PropertyPlaceholderConfigurer**<br>외부 프로퍼티에 저장된 정보를 스프링에서 사용하고자 할때 ``PropertyPlaceholderConfigurer``라는 설정을 통해 사용<br>한개 이상의 프로퍼티 파일을 지정하고 싶을때는 ``<list>`` 태그를 이용해서 목록을 지정할수있음<br><Br>
  
  - **외부 설정 프로퍼티**<br>
