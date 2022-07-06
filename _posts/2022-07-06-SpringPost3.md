@@ -93,6 +93,7 @@ jdbc.password=비밀번호
 typeAlias 태그의 type 속성에 클래스 패키지 주소를 적고, alias 속성에 지정할 클래스 명을 입력함<br>이렇세 미리 설정하면 return할 때 불필요하게 패키지 주소를 다 적지 않을 수 있다.<br><br>
 
 6. **mappers/member.xml**
+
 ~~~
 <![CDATA[
 <!DOCTYPE mapper
