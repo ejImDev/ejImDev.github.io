@@ -134,10 +134,12 @@ typeAlias 태그의 type 속성에 클래스 패키지 주소를 적고, alias �
 - **org.mybatis.spring.SqlSessionTemplate**<br>마이바티스 쿼리문을 수행해주는 역할<br> 클래스에서 SqlSessionTemplate 필드 방식으로 주입해서 사용.<br><br>
 
 7.**action-service.xml**
-```
+  
+~~~
 <bean id="memberService" class="kr.co.springmybatis.service.MemberServiceImpl">
 		<property name="memberDAO" ref="memberDAO" />
 	</bean>
-```
+~~~
+  
  - MemberDAO 빈을 사용할 memberService 빈을 설정
  
