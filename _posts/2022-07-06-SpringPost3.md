@@ -94,6 +94,11 @@ typeAlias 태그의 type 속성에 클래스 패키지 주소를 적고, alias �
 
 6. **mappers/member.xml**
 ~~~
+<![CDATA[
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
 <mapper namespace="mapper.member">
 
 	<resultMap type="memberDTO" id="memResult">	
@@ -120,6 +125,7 @@ typeAlias 태그의 type 속성에 클래스 패키지 주소를 적고, alias �
     쿼리문
 	</delete>
 </mapper>  
+]]>
 ~~~
   
 - **namespace**<br>mapper의 class명 같은 존재.<br><br>
