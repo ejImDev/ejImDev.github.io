@@ -20,7 +20,7 @@ tags:
 
 
 2. **web.xml 설정**<br>
-```
+~~~
 <context-param>
 	<param-name>contextConfigLocation</param-name>
 	<param-value>
@@ -28,12 +28,12 @@ tags:
 		/WEB-INF/config/action-service.xml
 	</param-value>
 </context-param>
-```
+~~~
 
 마이바티스 설정을 지정하는 XML 파일을 읽을 수 있게 경로를 contextConfigLocation에 추가<br><br>
 
 3. **action-mybatis.xml**<br>
-```
+~~~
 <bean id="propertyPlaceholderConfigurer" 
 				class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 	<property name="locations">
@@ -61,7 +61,7 @@ tags:
 <bean id="memberDAO" class="kr.co.springmybatis.dao.MemberDAOImpl">
 	<property name="sqlSession" ref="sqlSession" ></property>
 </bean>
-```
+~~~
 
 데이터베이스 연동 시 반환 값을 저장할 빈이나 마이바티스 관련 정보를 설정
 
@@ -78,9 +78,7 @@ jdbc.password=비밀번호
 <br>
 
 - **org.apache.ibatis.datasource.pooled.PooledDataSource**<br>DataSource를 정의해 커넥션 풀 설정<br><Br>
-
 - **org.mybatis.spring.SqlSessionFactoryBean**<br>실질적으로 DB와 마이바티스를 연결해주는 단계. DataSource를 참조해서 연동함<br>마이바티스에 별도의 설정을 주고 싶으면 configLocation 속성을 추가해서 별도의 설정 파일을 연결(modelConfig.xml)<br>mapperLocations 를 이용해서 매퍼의 위치를 설정<br><br>
-
 - **modelConfig.xml**<br>
 ~~~
 <configuration>
@@ -89,6 +87,7 @@ jdbc.password=비밀번호
 	</typeAliases>
 </configuration>
 ~~~
+  
 typeAlias 태그의 type 속성에 클래스 패키지 주소를 적고, alias 속성에 지정할 클래스 명을 입력함<br>이렇세 미리 설정하면 return할 때 불필요하게 패키지 주소를 다 적지 않을 수 있다.<br><br>
 
 - **mappers/member.xml**<br>
@@ -108,31 +107,19 @@ typeAlias 태그의 type 속성에 클래스 패키지 주소를 적고, alias �
 	</resultMap>
 														
 	<select id="selectAllMemberList" resultMap="memResult">
-		<![CDATA[ 		
-			SELECT * FROM T_MEMBER ORDER BY JOINDATE DESC
-		 ]]>
+    쿼리문
 	</select>
 	
 	<insert id="insertMember" parameterType="memberDTO">
-		<![CDATA[
-			INSERT INTO T_MEMBER (id, PWD, NAME, EMAIL) 
-			VALUES (#{id}, #{pwd}, #{name}, #{email} )		
-		]]>
+    쿼리문
 	</insert>
 	
 	<update id="updateMember" parameterType="memberDTO">
-		<![CDATA[
-			UPDATE T_MEMBER 
-			SET PWD = #{pwd}, NAME = #{name}, EMAIL = #{email}
-			WHERE ID = #{id}			
-		]]>	
+    쿼리문
 	</update>
 	
 	<delete id="deleteMember" parameterType="String">
-		<![CDATA[
-			DELETE FROM T_MEMBER 
-			WHERE ID = #{id}		
-		]]>
+    쿼리문
 	</delete>
 </mapper>  
 ~~~
