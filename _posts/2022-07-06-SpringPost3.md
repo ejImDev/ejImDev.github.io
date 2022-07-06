@@ -80,7 +80,7 @@ jdbc.password=비밀번호
 - **org.apache.ibatis.datasource.pooled.PooledDataSource**<br>DataSource를 정의해 커넥션 풀 설정<br><Br>
 - **org.mybatis.spring.SqlSessionFactoryBean**<br>실질적으로 DB와 마이바티스를 연결해주는 단계. DataSource를 참조해서 연동함<br>마이바티스에 별도의 설정을 주고 싶으면 configLocation 속성을 추가해서 별도의 설정 파일을 연결(modelConfig.xml)<br>mapperLocations 를 이용해서 매퍼의 위치를 설정<br><br>
 
-5. **modelConfig.xml**
+5.**modelConfig.xml**
   
 ~~~
 <configuration>
@@ -92,7 +92,7 @@ jdbc.password=비밀번호
   
 typeAlias 태그의 type 속성에 클래스 패키지 주소를 적고, alias 속성에 지정할 클래스 명을 입력함<br>이렇세 미리 설정하면 return할 때 불필요하게 패키지 주소를 다 적지 않을 수 있다.<br><br>
 
-6. **mappers/member.xml**
+6.**mappers/member.xml**
 
 ~~~
 <!DOCTYPE mapper
@@ -133,7 +133,7 @@ typeAlias 태그의 type 속성에 클래스 패키지 주소를 적고, alias �
 - **\<select id="DAO에서 부를 명칭" resultMap="위에서 만들어놓은 DTO 아이디 값" 또는 resultType="결과를 보낼 타입">**<br>쿼리문을 작성하는 단계. SELECT가 아닌 INSERT, UPDATE, DELETE 모두 동일함<BR>resultMap을 생략한 경우 DTO 아이디 값이 아닌 modelConfig.xml에서 설정한 이름으로 지정 가능<br><br>
 - **org.mybatis.spring.SqlSessionTemplate**<br>마이바티스 쿼리문을 수행해주는 역할<br> 클래스에서 SqlSessionTemplate 필드 방식으로 주입해서 사용.<br><br>
 
-7. **action-service.xml**
+7.**action-service.xml**
 ```
 <bean id="memberService" class="kr.co.springmybatis.service.MemberServiceImpl">
 		<property name="memberDAO" ref="memberDAO" />
