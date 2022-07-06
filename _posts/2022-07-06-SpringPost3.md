@@ -11,11 +11,9 @@ tags:
 
 1. **pom.xml에 라이브러리 추가**<br>
 ~~~
-<dependency>
   <groupId>org.mybatis</groupId>
   <artifactId>mybatis</artifactId>
   <version>버전</version>
-</dependency>
 ~~~
 
 
