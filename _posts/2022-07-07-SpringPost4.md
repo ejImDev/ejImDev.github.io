@@ -8,10 +8,34 @@ tags:
   - Spring
 ---
 
-
-1. **action-servlet.xml에 추가**
+1. **web.xml에 추가**
 
 ~~~
+<listener>
+	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+</listener>
+
+<servlet>
+	<servlet-name>action</servlet-name>
+	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	<load-on-startup>1</load-on-startup>
+</servlet>
+		
+<servlet-mapping>
+	<servlet-name>action</servlet-name>
+	<url-pattern>*.do</url-pattern>
+</servlet-mapping>
+~~~
+
+2.**action-servlet.xml**
+
+~~~
+<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
+	<property name="prefix" value="/WEB-INF/views/member" />		<!-- jsp 파일 위치 지정 -->
+	<property name="suffix" value=".jsp" />
+</bean>
+	
 <bean id="memberController" class="kr.co.springmybatis.controller.MemberControllerImpl">
 	<property name="methodNameResolver">
 		<ref local="memberMethodResolver"/>
@@ -37,5 +61,5 @@ tags:
 			<prop key="/member/*.do">memberController</prop>
 		</props>
 	</property>
-</bean> 
+</bean>
 ~~~
