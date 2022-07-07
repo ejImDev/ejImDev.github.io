@@ -1,6 +1,6 @@
 ---
 layout : single
-title: "[Spring] 마이바티스 xml 설정"
+title: "[Spring] 마이바티스 xml 설정 - 2"
 
 categories:
   - JSP
