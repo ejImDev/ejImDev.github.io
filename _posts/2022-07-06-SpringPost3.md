@@ -28,9 +28,13 @@ tags:
 		/WEB-INF/config/action-service.xml
 	</param-value>
 </context-param>
+
+<listener>
+	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+</listener>
 ~~~
 
-마이바티스 설정을 지정하는 XML 파일을 읽을 수 있게 경로를 contextConfigLocation에 추가<br><br>
+마이바티스 설정을 지정하는 XML 파일을 읽을 수 있게 경로를 contextConfigLocation에 추가<br>ContextLoaderListener는 web.xml에 설정파일들이 로드되도록 등록할때 사용.<br> contextConfigLocation 파라미터를 쓰면 ContextLoader가 로드 할 수 있는 설정파일을 여러개 쓸 수 있다.<br><br>
 
 3. **action-mybatis.xml**
 
