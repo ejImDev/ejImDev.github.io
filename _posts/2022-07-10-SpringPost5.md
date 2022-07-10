@@ -18,7 +18,7 @@ tags:
 - **DefaultAnnotationHandlerMapping**<br>클래스 레벨에서의 @Requestmapping 처리<br><br>
 - **AnnotationMethodHandlerAdapter**<br>메서드 레벨에서의 @Requestmapping 처리<br><br>
 
-3.**<context:component-scan base-package="패키지명"/>**<br>애플리케이션 실행 시 지정한 패키지에서 애너테이션으로 지정 된 클래스를 빈으로 만들어 줌<br><br>
+3.**\<context:component-scan base-package="패키지명"/>**<br>애플리케이션 실행 시 지정한 패키지에서 애너테이션으로 지정 된 클래스를 빈으로 만들어 줌<br><br>
 
 4.**@Requestmapping**<br>요청이 왔을때 어떤 컨트롤러가 호출이 되어야 할지 알려주는 매핑하기 위한 어노테이션<br><br>
 
