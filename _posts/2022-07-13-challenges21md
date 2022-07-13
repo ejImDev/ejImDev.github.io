@@ -1,0 +1,45 @@
+---
+layout : single
+title: "[JAVA/Do It] Q11번 - 자릿수 출력 풀이"
+
+categories:
+  - Test
+tags:
+  - JAVA
+  - Test
+---
+
+
+## 문제
+
+양의 정수를 입력하고 자릿수를 출력하는 프로그램을 작성하세요. 예를 들어 135를 입력하면 '그 수는 3자리 입니다.' 라고 출력하고, 1314를 입력하면 '그 수는 4자리 입니다.' 라고 출력하면 됩니다.
+
+## 풀이
+
+~~~
+import java.util.Scanner;
+
+public class Main {
+	public static void main (String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("양의 정수를 입력하세요 : "); 
+		int num = scan.nextInt();
+		int i;
+		
+		while(num<=0) {
+			System.out.println("음수입니다. 다시 입력하세요");
+			num = scan.nextInt();
+		}
+		
+		for(i=1; num/10!=0; i++) {
+			num = num/10;
+		}
+		
+		System.out.println("그 수는"+i+"자리 입니다.");
+	}
+}
+~~~
+
+> Do it! 자료구조와 함께 배우는 알고리즘 입문 자바편
