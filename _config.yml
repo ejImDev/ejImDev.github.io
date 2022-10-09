@@ -108,7 +108,7 @@ author:
   avatar           : /assets/img.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "작지만 단단하게"
   location         : "Somewhere"
-  email            : "ejim0093@gmail.com"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
