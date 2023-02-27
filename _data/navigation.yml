@@ -2,8 +2,8 @@
 main:
   - title: "JAVA"
     url: /JAVA/
-  - title: "JSP"
-    url: /JSP/
+  - title: "Spring"
+    url: /Spring/
   - title: "ORACLE"
     url: /ORACLE/
   - title: "Test"
