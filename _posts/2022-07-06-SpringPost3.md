@@ -3,7 +3,7 @@ layout : single
 title: "[Spring] 마이바티스 xml 설정"
 
 categories:
-  - JSP
+  - Spring
 tags:
   - Spring
 ---
