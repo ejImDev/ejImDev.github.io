@@ -1,6 +1,6 @@
 ---
-title: "Posts by JSP"
+title: "Posts by Spring"
 layout: categories
-permalink: /JSP/
+permalink: /Spring/
 author_profile: true
 ---
