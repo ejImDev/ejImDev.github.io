@@ -3,7 +3,7 @@ layout : single
 title: "[Spring] AOP 기능 사용하기"
 
 categories:
-  - JSP
+  - Spring
 tags:
   - Spring
 ---
