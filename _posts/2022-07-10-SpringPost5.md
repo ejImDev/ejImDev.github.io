@@ -3,7 +3,7 @@ layout : single
 title: "[Spring] 스프링 애너테이션 사용하기"
 
 categories:
-  - JSP
+  - Spring
 tags:
   - Spring
 ---
