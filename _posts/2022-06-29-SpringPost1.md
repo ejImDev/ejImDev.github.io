@@ -3,7 +3,7 @@ layout : single
 title: "[Spring] 스프링 기본 개념 정리"
 
 categories:
-  - JSP
+  - Spring
 tags:
   - Spring
 ---
