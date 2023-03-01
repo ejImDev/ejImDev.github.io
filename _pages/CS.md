@@ -1,6 +1,6 @@
 ---
-title: "Posts by JAVA"
+title: "Posts by CS"
 layout: categories
-permalink: /JAVA/
+permalink: /CS/
 author_profile: true
 ---
