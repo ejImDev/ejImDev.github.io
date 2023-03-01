@@ -4,8 +4,8 @@ main:
     url: /JAVA/
   - title: "Spring"
     url: /Spring/
-  - title: "ORACLE"
-    url: /ORACLE/
+  - title: "SQL"
+    url: /SQL/
   - title: "Test"
     url: /Test/
   - title: "etc"
