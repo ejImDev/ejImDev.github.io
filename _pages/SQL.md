@@ -1,6 +1,6 @@
 ---
-title: "Posts by ORACLE"
+title: "Posts by SQL"
 layout: categories
-permalink: /ORACLE/
+permalink: /SQL/
 author_profile: true
 ---
