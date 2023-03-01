@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "JAVA"
-    url: /JAVA/
+  - title: "CS"
+    url: /CS/
   - title: "Spring"
     url: /Spring/
   - title: "SQL"
