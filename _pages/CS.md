@@ -3,6 +3,8 @@ title: "Posts by CS"
 layout: archive
 permalink: /CS/
 author_profile: true
+sidebar:                 
+        nav: "sidebar-category"
 types: posts
 ---
 
