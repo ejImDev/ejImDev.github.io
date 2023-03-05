@@ -3,7 +3,7 @@ layout : single
 title: "[JAVA/백준] 2588번 - 곱셉 풀이"
 
 categories:
-  - Test
+  - javaTest
 tags:
   - JAVA
   - Test
