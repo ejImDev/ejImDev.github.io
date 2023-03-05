@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+  
 title: "[JAVA/백준] 2739번 - 구구단 풀이"
 
 categories:
