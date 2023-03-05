@@ -3,7 +3,7 @@ layout : single
 title: "[JSP] 디렉티브 태그의 종류"
 
 categories:
-  - JSP
+  - jsp
 tags:
   - JSP
   - 서블릿
