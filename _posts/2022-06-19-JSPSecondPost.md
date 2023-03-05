@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+
 title: "[JSP] 디렉티브 태그의 종류"
 
 categories:
