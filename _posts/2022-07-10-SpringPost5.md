@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+  
 title: "[Spring] 스프링 애너테이션 사용하기"
 
 categories:
