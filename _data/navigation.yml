@@ -1,15 +1,16 @@
 # main links
-main:
-  - title: "CS"
-    url: /CS/
-  - title: "Spring"
-    url: /Spring/
-  - title: "SQL"
-    url: /SQL/
-  - title: "Test"
-    url: /Test/
-  - title: "etc"
-    url: /etc/
+  # main:
+  
+# - title: "CS"
+  #  url: /CS/
+  #- title: "Spring"
+   # url: /Spring/
+  #- title: "SQL"
+   # url: /SQL/
+  #- title: "Test"
+   # url: /Test/
+  #- title: "etc"
+   # url: /etc/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -18,3 +19,49 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:
+  - title: CS
+    children:
+      - title: "CS"
+        url: CS/
+        category: "cs"
+  - title: JAVA
+    children:
+      - title: "JAVA"
+        url: Java/
+        category: "java"
+      - title: "Spring"
+        url: Spring/
+        category: "spring"
+      - title: "JSP"
+        url: JSP/
+        category: "jsp"  
+      - title: "Test"
+        url: Java/Test/
+        category: "javaTest"
+  - title: Server
+    children:
+      - title: "Linux"
+        url: Linux/
+        category: "Linux"
+  - title: SQL
+    children:
+      - title: "SQL"
+        url: SQL/
+        category: "sql"  
+      - title: "Test"
+        url: SQL/Test/
+        category: "sqlTest"   
+  - title: Etc
+    children:
+      - title: "Error"
+        url: Error/
+        category: "error"
+      - title: "Diary"
+        url: Diary/
+        category: "diary"
+      - title: "Etc"
+        url: Etc/
+        category: "etc"
+      
