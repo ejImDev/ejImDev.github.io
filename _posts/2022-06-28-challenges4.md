@@ -3,7 +3,7 @@ layout : single
 title: "[JAVA/백준] 2753번 - 윤년 풀이"
 
 categories:
-  - Test
+  - javaTest
 tags:
   - JAVA
   - Test
