@@ -302,3 +302,15 @@ defaults:
       share: false
       sidebar:                 
         nav: "sidebar-category"
+  # _posts
+  - scope:
+      path: ""
+      type: _posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      sidebar:                 
+        nav: "sidebar-category"
