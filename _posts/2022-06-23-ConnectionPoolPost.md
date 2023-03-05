@@ -3,7 +3,7 @@ layout : single
 title: "[JSP] JNDI, Connection Pool 개념 정리"
 
 categories:
-  - JSP
+  - jsp
 tags:
   - JSP
   - 서블릿
