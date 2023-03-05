@@ -26,6 +26,9 @@ sidebar-category:
       - title: "CS"
         url: /CS/
         category: "cs"
+      - title: "DM"
+        url: /DM/
+        category: "dm"
   - title: JAVA
     children:
       - title: "JAVA"
