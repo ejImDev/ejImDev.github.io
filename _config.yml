@@ -302,7 +302,7 @@ defaults:
       comments: # true
       share: false
       related: false
-      sidebar:                  # 추가한 부분
-        nav: "sidebar-category" # 추가한 부분
+      sidebar:
+        nav: "sidebar-category"
       
 
