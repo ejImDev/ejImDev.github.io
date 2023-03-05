@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+  
 title: "[JAVA/백준] 1110번 - 더하기 사이클 풀이"
 
 categories:
