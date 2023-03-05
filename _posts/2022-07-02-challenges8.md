@@ -3,7 +3,7 @@ layout : single
 title: "[JAVA/백준] 2480번 - 주사위 세개 풀이"
 
 categories:
-  - Test
+  - javaTest
 tags:
   - JAVA
   - Test
