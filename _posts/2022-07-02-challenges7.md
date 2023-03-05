@@ -3,7 +3,7 @@ layout : single
 title: "[JAVA/백준] 2525번 - 오븐 시계 풀이"
 
 categories:
-  - Test
+  - javaTest
 tags:
   - JAVA
   - Test
