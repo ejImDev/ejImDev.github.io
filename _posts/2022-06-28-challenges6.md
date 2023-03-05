@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+  
 title: "[JAVA/백준] 2884번 - 알람 시계 풀이"
 
 categories:
