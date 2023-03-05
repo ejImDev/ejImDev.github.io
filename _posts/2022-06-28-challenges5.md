@@ -3,7 +3,7 @@ layout : single
 title: "[JAVA/백준] 14681번 - 사분면 고르기 풀이"
 
 categories:
-  - Test
+  - javaTest
 tags:
   - JAVA
   - Test
