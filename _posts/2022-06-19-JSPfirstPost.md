@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+  
 title: "[JSP] JSP의 정의와 구성 요소"
 
 categories:
