@@ -24,44 +24,44 @@ docs:
   - title: CS
     children:
       - title: "CS"
-        url: CS/
+        url: /CS/
         category: "cs"
   - title: JAVA
     children:
       - title: "JAVA"
-        url: Java/
+        url: /Java/
         category: "java"
       - title: "Spring"
-        url: Spring/
+        url: /Java/Spring/
         category: "spring"
       - title: "JSP"
-        url: JSP/
+        url: /Java/JSP/
         category: "jsp"  
       - title: "Test"
-        url: Java/Test/
+        url: /Java/Test/
         category: "javaTest"
   - title: Server
     children:
       - title: "Linux"
-        url: Linux/
+        url: /Linux/
         category: "Linux"
   - title: SQL
     children:
       - title: "SQL"
-        url: SQL/
+        url: /SQL/
         category: "sql"  
       - title: "Test"
-        url: SQL/Test/
+        url: /SQL/Test/
         category: "sqlTest"   
   - title: Etc
     children:
       - title: "Error"
-        url: Error/
+        url: /Etc/Error/
         category: "error"
       - title: "Diary"
-        url: Diary/
+        url: /Etc/Diary/
         category: "diary"
       - title: "Etc"
-        url: Etc/
+        url: /Etc/
         category: "etc"
       
