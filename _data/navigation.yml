@@ -20,7 +20,7 @@
   # - title: "Sitemap"
   #   url: /sitemap/
 
-docs:
+sidebar-category:
   - title: CS
     children:
       - title: "CS"
