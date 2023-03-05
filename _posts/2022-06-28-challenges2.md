@@ -3,7 +3,7 @@ layout : single
 title: "[JAVA/백준] 1330번 - 두 수 비교하기 풀이"
 
 categories:
-  - Test
+  - javaTest
 tags:
   - JAVA
   - Test
