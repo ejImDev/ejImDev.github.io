@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+  
 title: "[JAVA/백준] 14681번 - 사분면 고르기 풀이"
 
 categories:
