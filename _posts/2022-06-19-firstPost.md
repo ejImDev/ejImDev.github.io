@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+  
 title: "[GitHub] 깃허브 블로그에 포스트가 되지 않을 때 해결 방법"
 
 categories:
