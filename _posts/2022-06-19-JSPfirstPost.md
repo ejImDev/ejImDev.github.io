@@ -3,7 +3,7 @@ layout : single
 title: "[JSP] JSP의 정의와 구성 요소"
 
 categories:
-  - JSP
+  - jsp
 tags:
   - JSP
   - 서블릿
