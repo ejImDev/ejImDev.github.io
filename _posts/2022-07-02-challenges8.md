@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+  
 title: "[JAVA/백준] 2480번 - 주사위 세개 풀이"
 
 categories:
