@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+  
 title: "[JSP] JNDI, Connection Pool 개념 정리"
 
 categories:
