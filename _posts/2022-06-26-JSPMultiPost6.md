@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+  
 title: "[JSP] 사진첨부형 게시판 만들기 - 6"
 
 categories:
