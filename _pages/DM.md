@@ -3,6 +3,8 @@ title: "Posts by Discrete Mathematics"
 layout: archive
 permalink: /DM/
 author_profile: true
+sidebar:                 
+        nav: "sidebar-category"
 types: posts
 ---
 
