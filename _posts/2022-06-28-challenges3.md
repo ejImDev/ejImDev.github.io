@@ -3,7 +3,7 @@ layout : single
 title: "[JAVA/백준] 9498번 - 시험 성적 풀이"
 
 categories:
-  - Test
+  - javaTest
 tags:
   - JAVA
   - Test
