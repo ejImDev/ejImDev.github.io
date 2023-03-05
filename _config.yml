@@ -253,23 +253,21 @@ whitelist:
 # category_archive:
 # type: liquid
 # path: /categories/
----
-title: "Posts by Category"
-layout: categories
-permalink: /categories/
-author_profile: true
-sidebar: true
----
+# ---
+# title: "Posts by Category"
+# layout: categories
+# permalink: /categories/
+# author_profile: true
+# ---
 # tag_archive:
 #  type: liquid
 #  path: /tags/
 ---
-title: "Posts by Tag"
-permalink: /tags/
-layout: tags
-author_profile: true
-sidebar: true
----
+# title: "Posts by Tag"
+# permalink: /tags/
+# layout: tags
+# author_profile: true
+# ---
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -302,8 +300,7 @@ defaults:
       author_profile: true
       read_time: false
       comments: # true
-      share: false
-      related: false
+      share: true
+      related: true
       sidebar:
         nav: "sidebar-category"
-
