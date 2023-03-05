@@ -1,6 +1,5 @@
 ---
-title: "Posts by SQL"
-layout: categories
-permalink: /SQL/
-author_profile: true
+title: "Posts by JAVA"
+layout: archive
+permalink: /Java/
 ---
