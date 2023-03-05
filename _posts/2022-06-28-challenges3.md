@@ -1,5 +1,9 @@
 ---
 layout : single
+author_profile: true
+sidebar: 
+  nav: "sidebar-category"
+
 title: "[JAVA/백준] 9498번 - 시험 성적 풀이"
 
 categories:
