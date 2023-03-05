@@ -3,7 +3,7 @@ layout : single
 title: "[JSP] 사진첨부형 게시판 만들기 - 4"
 
 categories:
-  - JSP
+  - jsp
 tags:
   - JSP
   - 서블릿
