@@ -3,7 +3,7 @@ layout : single
 title: "[JAVA/백준] 2739번 - 구구단 풀이"
 
 categories:
-  - Test
+  - javaTest
 tags:
   - JAVA
   - Test
