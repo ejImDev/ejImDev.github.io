@@ -35,6 +35,9 @@ sidebar-category:
       - title: "LC"
         url: /LC/
         category: "lc"
+      - title: "DS"
+        url: /DS/
+        category: "ds"
   - title: JAVA
     children:
       - title: "JAVA"
