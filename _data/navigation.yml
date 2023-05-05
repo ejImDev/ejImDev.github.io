@@ -26,16 +26,16 @@ sidebar-category:
       - title: "CS"
         url: /CS/
         category: "cs"
-      - title: "OS"
+      - title: "운영체제"
         url: /OS/
         category: "os"
-      - title: "DM"
+      - title: "이산수학"
         url: /DM/
         category: "dm"
-      - title: "LC"
+      - title: "논리회로"
         url: /LC/
         category: "lc"
-      - title: "DS"
+      - title: "자료구조"
         url: /DS/
         category: "ds"
   - title: JAVA
