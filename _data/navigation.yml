@@ -49,9 +49,9 @@ sidebar-category:
       - title: "JSP"
         url: /Java/JSP/
         category: "jsp"  
-      - title: "Test"
-        url: /Java/Test/
-        category: "javaTest"
+     # - title: "Test"
+     #  url: /Java/Test/
+     #  category: "javaTest"
   - title: Server
     children:
       - title: "Linux"
