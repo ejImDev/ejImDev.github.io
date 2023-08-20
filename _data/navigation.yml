@@ -50,8 +50,8 @@ sidebar-category:
         url: /Java/JSP/
         category: "jsp"  
       - title: "Test"
-       url: /Java/Test/
-       category: "javaTest"
+        url: /Java/Test/
+        category: "javaTest"
   - title: Server
     children:
       - title: "Linux"
