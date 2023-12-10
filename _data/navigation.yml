@@ -29,12 +29,12 @@ sidebar-category:
       - title: "운영체제"
         url: /OS/
         category: "os"
-      - title: "이산수학"
-        url: /DM/
-        category: "dm"
-      - title: "논리회로"
-        url: /LC/
-        category: "lc"
+ #      - title: "이산수학"
+ #       url: /DM/
+ #       category: "dm"
+ #     - title: "논리회로"
+ #       url: /LC/
+ #       category: "lc"
       - title: "자료구조"
         url: /DS/
         category: "ds"
