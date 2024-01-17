@@ -24,8 +24,8 @@ sidebar-category:
   - title: Side Project
     children:
       - title: "BOOK_P"
-        url: /book_p/
-        category: "bookP"
+        url: /sp/book_p/
+        category: "book_p"
   - title: CS
     children:
       - title: "CS"
