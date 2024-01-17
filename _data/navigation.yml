@@ -21,6 +21,11 @@
   #   url: /sitemap/
 
 sidebar-category:
+  - title: Side Project
+    children:
+      - title: "BOOK_P"
+        url: /sp/book_p/
+        category: "pook_p"
   - title: CS
     children:
       - title: "CS"
