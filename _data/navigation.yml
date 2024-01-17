@@ -25,7 +25,7 @@ sidebar-category:
     children:
       - title: "BOOK_P"
         url: /book_p/
-        category: "book_p"
+        category: "bookP"
   - title: CS
     children:
       - title: "CS"
