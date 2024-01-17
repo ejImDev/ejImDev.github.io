@@ -81,4 +81,7 @@ sidebar-category:
       - title: "그 외"
         url: /Etc/
         category: "etc"
+    # - title: "비공개"
+    #  url: /Private/
+    #  category: "private"
       
