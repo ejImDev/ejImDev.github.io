@@ -75,9 +75,9 @@ sidebar-category:
       - title: "오류 기록"
         url: /Etc/Error/
         category: "error"
-      - title: "일기"
-        url: /Etc/Diary/
-        category: "diary"
+     # - title: "일기"
+     #   url: /Etc/Diary/
+     #   category: "diary"
       - title: "그 외"
         url: /Etc/
         category: "etc"
