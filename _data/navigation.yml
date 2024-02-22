@@ -72,6 +72,9 @@ sidebar-category:
         category: "sqlTest"   
   - title: Etc
     children:
+      - title: "C 프로그래밍"
+        url: /C/
+        category: "c"
       - title: "오류 기록"
         url: /Etc/Error/
         category: "error"
