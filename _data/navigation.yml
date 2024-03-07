@@ -1,4 +1,4 @@
-# main links
+v# main links
   # main:
   
 # - title: "CS"
@@ -47,8 +47,8 @@ sidebar-category:
         url: /Algorithm/
         category: "algorithm"
       - title: "컴퓨터보안"
-        url: /ComputerSecuirty/
-        category: "computerSecuirty"
+        url: /ComputerSecurity/
+        category: "computerSecurity"
   - title: JAVA
     children:
       - title: "JAVA"
