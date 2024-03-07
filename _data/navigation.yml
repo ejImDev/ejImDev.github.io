@@ -46,6 +46,9 @@ sidebar-category:
       - title: "알고리즘"
         url: /Algorithm/
         category: "algorithm"
+      - title: "컴퓨터보안"
+        url: /ComputerSecuirty/
+        category: "computerSecuirty"
   - title: JAVA
     children:
       - title: "JAVA"
