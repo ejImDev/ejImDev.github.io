@@ -73,6 +73,9 @@ sidebar-category:
       - title: "SQL"
         url: /SQL/
         category: "sql"  
+      - title: "MongoDB"
+        url: /MongoDB/
+        category: "MongoDB" 
       - title: "Test"
         url: /SQL/Test/
         category: "sqlTest"   
